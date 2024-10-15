@@ -24,7 +24,7 @@ form.addEventListener('submit', function(e) {
         if (inputValue === '') return
 
         if (inputValue < 0 || inputValue > 100 || isNaN(inputValue)) {
-            message.textContent = "The number has to be between 1-100"
+            message.textContent = "It has to be a number between 1-100"
             return
         }
     
