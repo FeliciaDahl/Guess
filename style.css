@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 body{
@@ -64,15 +64,20 @@ form {
     padding-bottom: 2rem;
 }
 .style {
-   
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+   justify-content: center;
+   align-items: center;
     border-radius: 5px;
     padding: .5rem;
-
     background-color: rgba(47, 94, 75, 0.895);
+    color: blanchedalmond;
+    padding-bottom: 1rem;
 
-    p {
-            color: blanchedalmond;
-            font-size: 1.5rem;
-
-    }
+}          
+#guess-list {
+    columns: 3;
+    list-style-type: none;
+   
 }
+ 
